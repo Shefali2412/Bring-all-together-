@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <img src="images/logo.jpeg" alt="logo">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+        
+          <!--Heading-->
+          <div class="text-bg-warning p-3">
+            <figure class="text-center">
+                <h1>INTERIOR DESIGN</h1>
+                <h3>
+                 Design your home 
+                    <small class="text-body-secondary">mordern home designing</small>
+                </h3>
+            </figure>
+          </div>
+        <!--slides-->
+    <div class="container" id="#navbarNav">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/slide_1.jpeg" class="d-block w-100" alt="slide">
+              </div>
+              <div class="carousel-item">
+                <img src="images/slide_2.jpeg" class="d-block w-100" alt="slide">
+              </div>
+              <div class="carousel-item">
+                <img src="images/slide_3.jpeg" class="d-block w-100" alt="slide">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <section id="portfolio" class="py-5">
+            <div class="container">
+              <h3>Custom Furnishings Define a Penthouse Apartment in Netherlands
+            </h3>
+              <p>Custom Furnishings Define a Penthouse Apartment in Netherlands
+                For the penthouse apartment of a luxe housing development in Netherlands, multi-disciplinary studio Cream was given ample creative freedom. The developer asked the firm, which is led by creative director Antony Chan, to bring their own vision as they refreshed and furnished the apartment, including the roof terraces. The 1,550-square-foot apartment includes four bedrooms. Outdoor space is nearly another 1,000 square feet, and the terraces includes a glass-fronted swimming pool.  
+                The development’s existing architecture presented floor-to-ceiling windows that brought in abundant natural light and urban vistas. “I love the energy and inspiration of the natural elements such as sun, light, and the sea view,” Chan notes. And at sunset, the light “created a magical and atmospheric ambiance.” Cream added Marcel Wanders’s Diamond Screen to maximize the sunlight and create a play of light and shadows throughout the lounge area. The screen, part of Wanders’s Louis Vuitton Objets Nomades collection, is complemented by hand-painted LV trunks nearby.</p>
+            </div>
+        </section> 
+        <section class="py-5" >
+            <div class="container">
+                <h2 class="text-center">Contact Me</h2>
+                <div class="formMessage"></div>
+                <form id="contact">
+                    <div class="mb-3">
+                        <label for="firstname" class="form-label">First Name:</label>
+                        <input type="text" class="form-control" id="firstname" placeholder="Enter your first name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="lastname" class="form-label">Last Name:</label>
+                        <input type="text" class="form-control" id="lastname" placeholder="Enter your last name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message:</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+                    </div>
+                    <input id="submit" class="btn btn-primary" type="submit" value="Submit">
+                </form>
+                <ul id="users"></ul>
+            </div>
+        </section>  
+        <section id="projects" class="py-5">
+            <div class="container d-flex p-2 column-gap-3">
+              <div class="card" style="width: 20rem;">
+                  <img src="images/more_1.jpeg" class="card-img-top" alt="INTERIOR">
+                  <div class="card-body">
+                    <h5 class="card-title">The Architecture of a Winery in Czechia Fosters Its Growth </h5>
+                    <p class="card-text">For Gurdau Winery in Czechia, designers inlayed an arched form into the Moravian landscape for producing varietals—and hosting the visitors who taste them.</p>
+                    <a href="#" class="btn btn-primary">Projects</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 20rem;">
+                  <img src="images/more_2.jpeg" class="card-img-top" alt="INTERIOR">
+                  <div class="card-body">
+                    <h5 class="card-title">25 Modern Pool Designs Around the World</h5>
+                    <p class="card-text">From Peru to the Hamptons, here are 25 modern pool designs so cool they’ll have you racing for your swimsuit regardless of the season.</p>
+                    <a href="#" class="btn btn-primary">Projects</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 20rem;">
+                  <img src="images/more_3.jpeg" class="card-img-top" alt="INTERIOR">
+                  <div class="card-body">
+                    <h5 class="card-title">The Architecture of a Winery in Czechia Fosters Its Growth </h5>
+                    <p class="card-text">For Gurdau Winery in Czechia, designers inlayed an arched form into the Moravian landscape for producing varietals—and hosting the visitors who taste them.</p>
+                    <a href="#" class="btn btn-primary">Projects</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 20rem;">
+                  <img src="images/more_4.jpeg" class="card-img-top" alt="INTERIOR">
+                  <div class="card-body">
+                    <h5 class="card-title">The Architecture of a Winery in Czechia Fosters Its Growth </h5>
+                    <p class="card-text">For Gurdau Winery in Czechia, designers inlayed an arched form into the Moravian landscape for producing varietals—and hosting the visitors who taste them.</p>
+                    <a href="#" class="btn btn-primary">Projects</a>
+                  </div>
+                </div>
+                
+              </div>
+          </section>
+          <footer class="blockquote-footer text-center">
+              <p>Copyright &copy;2023 ALL RIGHTS RESERVED.
+  
+              </p>
+  
+          </footer>
+          
+  
+        
+        
+  
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    </body>
+  </html>     
+          
+        
+        

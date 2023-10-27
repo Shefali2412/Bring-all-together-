@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    line-height: 1.8;
+  }
+  
+  .error {
+    background:red;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+  }
+  /* Custom CSS for the skills section */
+  #projects {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+  }
+  #projectgallery li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: navy;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  /* Hover effect */
+  #skillList li:hover {
+    background-color: hsl(94, 100%, 35%);
+  }
